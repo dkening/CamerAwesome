@@ -336,7 +336,7 @@
       _flashMode = AVCaptureFlashModeAuto;
       break;
   }
-  [_captureDevice setTorchMode:_torchMode];
+  // [_captureDevice setTorchMode:_torchMode];
   [_captureDevice unlockForConfiguration];
 }
 
